@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <form onsubmit="msgfrwd() ,event.preventDefault()">
+
+            <h2><b>Enter Your Message</b></h2>
+
+            <textarea rows="8" cols="25" id="msg" maxlength="30" placeholder="Write Your Message"
+                required></textarea><br><br>
+            <label>
+                <input type="checkbox" value="ali" id="ali">Ali
+            </label>
+            <label>
+                <input type="checkbox" value="usman" id="usman">Usman
+            </label>
+            <label>
+                <input type="checkbox" value="ahmed" id="ahmed">Ahmed
+            </label>
+            <label>
+                <input type="checkbox" value="imran" id="imran">Imran
+            </label>
+            <label>
+                <input type="checkbox" value="irfan" id="irfan">Irfan
+            </label> <br><br>
+
+            <button>Forward</button>
+
+        </form>
+
+
+    </div>
+
+
+</body>
+<script src="./app.js"></script>
+
+</html>
